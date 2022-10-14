@@ -49,3 +49,20 @@
     display: flex;
     width: 23%;
 }
+
+.videoSobre .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.videoSobre-video {
+    width: 50%;
+}
+
+.videoSobre-sobre {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+}
