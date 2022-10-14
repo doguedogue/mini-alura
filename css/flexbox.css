@@ -112,4 +112,8 @@
     .rodapePrincipal-contatoForm-fieldset {
         justify-content: center;
     }
+
+    .headerPrincipal-nav-link-app {
+        order: -1;
+    }
 }
