@@ -37,3 +37,7 @@ div:nth-child(4) {
 .flexItem {
     flex-grow: 1;
 }
+
+.primero {
+    flex-grow: 2;
+}
