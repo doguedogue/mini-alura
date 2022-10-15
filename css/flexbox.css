@@ -52,20 +52,23 @@
 
 .videoSobre .container {
     display: flex;
-    justify-content: space-between;
-}
-
-.videoSobre-video {
-    width: 50%;
 }
 
 .videoSobre-sobre {
-    display: flex;
-    width: 50%;
-    flex-direction: column;
     text-align: center;
-    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
 }
+
+.videoSobre-video {
+    flex-grow: 2;
+    flex-shrink: 2;
+}
+
+.videoSobre-sobre-list {
+    flex-grow: 2;
+}
+
 
 /* Responsive */
 @media (max-width: 768px) {
@@ -115,5 +118,9 @@
 
     .headerPrincipal-nav-link-app {
         order: -1;
+    }
+
+    .videoSobre .container {
+        flex-direction: column;
     }
 }
