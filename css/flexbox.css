@@ -52,21 +52,22 @@
 
 .videoSobre .container {
     display: flex;
+    justify-content: space-between;
 }
 
 .videoSobre-sobre {
     text-align: center;
     display: flex;
     flex-direction: column;
-}
-
-.videoSobre-video {
-    flex-grow: 2;
-    flex-shrink: 2;
+    flex-grow: 1;
 }
 
 .videoSobre-sobre-list {
-    flex-grow: 2;
+    flex-grow: 1;
+}
+
+.videoSobre-video {
+    flex-grow: 1;
 }
 
 
