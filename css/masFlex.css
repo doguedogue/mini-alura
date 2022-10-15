@@ -1,0 +1,42 @@
+.flexContainer:last-child {
+    margin-top: 2em;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    height: 50px;
+    width: 50px;
+}
+
+div:nth-child(1) {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+div:nth-child(2) {
+    background-color: blue;
+}
+
+div:nth-child(3) {
+    background-color: green;
+}
+
+div:nth-child(4) {
+    background-color: yellow;
+}
+
+.flexContainer {
+    /* horizontal */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    /* vertical */
+    /* height: 100vh;
+    flex-direction: column; */
+}
