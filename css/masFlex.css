@@ -36,8 +36,10 @@ div:nth-child(4) {
 
 .flexItem {
     flex-grow: 1;
+    flex-shrink: 0;
 }
 
 .primero {
-    flex-grow: 2;
+    flex-basis: 200px;
+    flex-grow: 0;
 }
